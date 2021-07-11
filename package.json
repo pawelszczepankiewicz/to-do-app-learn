@@ -1,0 +1,29 @@
+{
+  "name": "to-do-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawelszczepankiewicz/to-do-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawelszczepankiewicz/to-do-learn/issues"
+  },
+  "homepage": "https://github.com/pawelszczepankiewicz/to-do-learn#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.10",
+    "nodemon": "^2.0.10",
+    "sanitize-html": "^2.4.0"
+  }
+}
